@@ -20,17 +20,17 @@ namespace CA1
             Year =year;
 
         }
-        public Subject(string name, string lecturer,int year)
-               : this(name, lecturer, year.now)
+        /*public Subject(string name, string lecturer,int year)
+               //: this(name, lecturer, year.now)
         {
 
-        }
+        }*/
         #endregion Constructors
 
         public override string ToString()
         {
             return string.Format($"{Name} {Lecturer} {Year}");
         }
-
+        //Console.WriteLine("");
     }
 }

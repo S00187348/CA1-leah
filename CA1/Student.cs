@@ -11,7 +11,11 @@ namespace CA1
         string Name { get; set; }
         string DateOfBirth { get; set; }
 
-        List<Subject> AllSubjects = new List<Subject>();
+        List<Student> AllStudents = new List<Student>();
 
+        public override string ToString()
+        {
+            return string.Format($"{Name} {DateOfBirth} {AllStudents}");
+        }
     }
 }
