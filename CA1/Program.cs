@@ -10,12 +10,15 @@ namespace CA1
     {
         static void Main(string[] args)
         {
-            Subject subject1 = new Subject("geo","mr jing",1);
-            Subject suject2 = new Subject();
+            //Subject subject1 = new Subject("geo", "mr jing", 1);
+            //Subject suject2 = new Subject();
+
 
 
             List<Subject> AllSubjects = new List<Subject>();
 
+            Console.WriteLine($"{Name},{Lecturer},{Year}");
+            Console.WriteLine($"{name},{DateOfBirth}");
         }
     }
 }

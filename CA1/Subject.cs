@@ -8,19 +8,19 @@ namespace CA1
 {
     public abstract class Subject
     {
-        public string Name { get; set; }
-        public string Lecturer { get; set; }
-        public int Year { get; set; }
+        public string Name;
+        public string Lecturer;
+        public int Year;
 
         #region Constructors
-        public Subject(string name, string lecturer, int year)
+       /* public Subject(string name, string lecturer, int year)
         {
              Name = name;
             Lecturer = lecturer;
             Year =year;
 
         }
-        /*public Subject(string name, string lecturer,int year)
+        public Subject(string name, string lecturer,int year)
                //: this(name, lecturer, year.now)
         {
 
